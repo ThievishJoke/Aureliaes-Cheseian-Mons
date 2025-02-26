@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:klang-cheseian",
+  "speciesId": "cobblemon:klang",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Cheseian",
+      "unlockForms": [
+        "Cheseian"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,124 @@
+{
+    "implemented": true,
+    "name": "Padlume",
+    "nationalPokedexNumber": 2221,
+    "primaryType": "grass",
+    "secondaryType": "water",
+    "abilities": [
+      "cutecharm",
+      "drizzle",
+      "h:flowergift"
+    ],
+    "baseStats": {
+      "hp": 105,
+      "attack": 35,
+      "defence": 40,
+      "special_attack": 116,
+      "special_defence": 40,
+      "speed": 109
+    },
+    "catchRate": 50,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 120,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 40,
+    "eggGroups": [
+      "water_1"
+    ],
+    "drops": {
+      "amount": 1,
+      "entries": [
+        {
+          "item": "minecraft:lily_of_the_valley",
+          "percentage": 10.0
+        }
+      ]
+    },
+    "behaviour": {
+      "moving": {
+        "walk": {
+          "walkSpeed": 0.25
+        }
+      },
+      "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,
+        "depth": "normal",
+        "light": "0-4"
+      },
+      "swim": {
+       "swimSpeed": 0.2,
+       "canSwimInWater": true,
+       "canBreatheUnderwater": true
+     }
+    },
+    "moves": [
+      "1:splash",
+      "1:charm",
+      "1:sweetkiss",
+      "1:lovelykiss",
+      "1:covet",
+      "1:afteryou",
+      "1:mefirst",
+      "1:captivate",
+      "1:luckychant",
+      "1:sweetscent",
+      "1:curse",
+      "1:attract",
+      "3:watergun",
+      "5:leechseed",
+      "8:firespin",
+      "10:bubble",
+      "14:waterpulse",
+      "20:liquidation",
+      "22:energyball",
+      "23:wish",
+      "24:hydropump",
+      "25:muddywater",
+      "28:sparklingaria",
+      "30:morningsun",
+      "32:helpinghand",
+      "36:flowertrick",
+      "42:revivalblessing",
+      "60:synthesis",
+      "egg:aromatherapy",
+      "egg:tickle",
+      "egg:secretpower",
+      "egg:flipturn",
+      "tm:attract",
+      "tm:grasspledge",
+      "tm:helpinghand",
+      "tm:protect",
+      "tm:rest",
+      "tm:sunnyday",
+      "tm:toxic",
+      "tutor:grasspledge"
+    ],
+    "labels": [
+      "cheseian"
+    ],
+    "pokedex": [
+      "cobblemon.species.padlume.desc1"
+    ],
+    "evolutions": [],
+    "baseScale": 1.2,
+    "hitbox": {
+      "width": 0.5,
+      "height": 0.4,
+      "fixed": false
+    },
+    "baseFriendship": 140,
+    "evYield": {
+      "hp": 2,
+      "attack": 0,
+      "defence": 0,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "height": 2,
+    "weight": 50,
+    "aspects": [],
+    "cannotDynamax": false
+  }

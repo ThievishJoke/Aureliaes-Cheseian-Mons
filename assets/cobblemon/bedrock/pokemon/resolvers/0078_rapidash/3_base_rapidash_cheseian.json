@@ -1,0 +1,42 @@
+{
+    "species": "cobblemon:rapidash",
+    "order": 3,
+    "variations": [
+      {
+        "aspects": ["cheseian"],
+        "poser": "cobblemon:rapidash_cheseian",
+        "model": "cobblemon:rapidash_cheseian.geo",
+        "texture": "cobblemon:textures/pokemon/0078_rapidash/rapidash_cheseian.png",
+        "layers": [
+          {
+          "name": "emissive",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/0078_rapidash/hair/1.png"
+            ],
+            "fps": 0,
+            "loop": false
+          },
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny", "cheseian"],
+      "texture": "cobblemon:textures/pokemon/0078_rapidash/rapidash_cheseian_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/0078_rapidash/hair/1.png"
+            ],
+            "fps": 0,
+            "loop": false
+          },
+          "emissive": false
+        }
+      ]
+    }
+  ]
+}

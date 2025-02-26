@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:klink-cheseian",
+  "speciesId": "cobblemon:klink",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Cheseian",
+      "unlockForms": [
+        "Cheseian"
+      ]
+    }
+  ],
+  "variations": []
+}

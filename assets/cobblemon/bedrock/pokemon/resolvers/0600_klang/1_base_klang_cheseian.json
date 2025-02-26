@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:klang",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["cheseian"],
+      "model": "cobblemon:klang.geo",
+      "texture": "cobblemon:textures/pokemon/0600_klang/klang_cheseian.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny", "cheseian"],
+      "texture": "cobblemon:textures/pokemon/0600_klang/klang_cheseian_shiny.png",
+      "layers": []
+    }
+  ]
+}

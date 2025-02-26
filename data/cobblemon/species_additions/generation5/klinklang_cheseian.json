@@ -1,0 +1,126 @@
+{
+    "target": "cobblemon:klinklang",
+    "forms":[
+        {
+            "implemented": true,
+            "name": "Cheseian",
+            "nationalPokedexNumber": 601,
+            "primaryType": "grass",
+            "secondaryType": "steel",
+            "abilities": [
+                "leafguard",
+                "clearbody",
+                "h:solarpower"
+            ],
+            "baseStats": {
+                "hp": 95,
+                "attack": 90,
+                "defence": 110,
+                "special_attack": 120,
+                "special_defence": 95,
+                "speed": 10
+            },
+            "catchRate": 30,
+            "maleRatio": -1,
+            "shoulderMountable": false,
+            "baseExperienceYield": 260,
+            "experienceGroup": "medium_slow",
+            "eggCycles": 20,
+            "eggGroups": [
+                "field",
+                "mineral"
+            ],
+            "behaviour": {
+              "moving": {
+                "walk": {
+                  "walkSpeed": 0.2
+                }
+              },
+              "resting": {
+                "canSleep": true,
+                "willSleepOnBed": false,
+                "depth": "normal",
+                "light": "10-15"
+              }
+            },          
+            "moves": [
+                "1:bind",
+                "1:geargrind",
+                "1:growth",
+                "1:magnetbomb",
+                "1:wrap",
+                "3:magnetrise",
+                "5:grasswhistle",
+                "7:metalclaw",
+                "9:charge",
+                "12:leafstorm",
+                "14:geargrind",
+                "16:irondefense",
+                "19:flashcannon",
+                "21:steelbeam",
+                "23:solarpower",
+                "25:gyroball",
+                "28:explosion",
+                "30:petalblizzard",
+                "32:autotomize",
+                "35:ironhead",
+                "37:grassyglide",
+                "39:bulletseed",
+                "41:magnetbomb",
+                "43:leechseed",
+                "45:energyball",
+                "47:irondefense",
+                "49:magnetrise",
+                "51:solarbeam",
+                "53:flashcannon",
+                "55:solarbomb",
+                "57:grassyglide",
+                "59:leechseed",
+                "61:ironhead",
+                "tm:irondefense",
+                "tm:metalclaw",
+                "tm:flashcannon",
+                "tm:solarbeam",
+                "tm:grassknot",
+                "tm:magnetrise",
+                "tm:autotomize",
+                "tm:solarbeam",
+                "tm:protect",
+                "tutor:ironhead",
+                "tutor:grassyglide",
+                "tutor:energyball",
+                "tutor:leechseed"
+            ],
+            "labels": [
+              "gen5",
+              "cheseian"
+            ],
+            "pokedex": [
+              "cobblemon.species.klinklang_cheseian.desc"
+            ],
+            "aspects": [
+              "cheseian"
+            ],
+            "evolutions": [
+            ],
+            "baseScale": 1,
+            "hitbox": {
+                "width": 1.8,
+                "height": 1.8,
+                "fixed": false
+            },
+            "baseFriendship": 50,
+            "evYield": {
+                "hp": 0,
+                "attack": 0,
+                "defence": 0,
+                "special_attack": 3,
+                "special_defence": 0,
+                "speed": 0
+            },
+            "height": 6,
+            "weight": 810,
+            "cannotDynamax": false
+        }
+    ]
+}

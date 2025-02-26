@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:klinklang",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["cheseian"],
+      "model": "cobblemon:klinklang.geo",
+      "texture": "cobblemon:textures/pokemon/0601_klinklang/klinklang_cheseian.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny", "cheseian"],
+      "texture": "cobblemon:textures/pokemon/0601_klinklang/klinklang_cheseian_shiny.png",
+      "layers": []
+    }
+  ]
+}
