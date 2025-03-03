@@ -1,9 +1,11 @@
 {
-    "entryId": "cobblemon:klang",
-    "forms": [
-      {
-        "displayForm": "Cheseian",
-        "unlockForms": ["Cheseian"]
-      }
-    ]
-  }
+  "entryId": "cobblemon:klang",
+  "forms": [
+    {
+      "displayForm": "Cheseian",
+      "unlockForms": [
+        "Cheseian"
+      ]
+    }
+  ]
+}

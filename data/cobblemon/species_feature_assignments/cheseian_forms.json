@@ -1,4 +1,11 @@
 {
-    "pokemon": ["klink","klang","klinklang","rapidash"],
-    "features": ["cheseian"]
+  "pokemon": [
+    "klink",
+    "klang",
+    "klinklang",
+    "rapidash"
+  ],
+  "features": [
+    "cheseian"
+  ]
 }

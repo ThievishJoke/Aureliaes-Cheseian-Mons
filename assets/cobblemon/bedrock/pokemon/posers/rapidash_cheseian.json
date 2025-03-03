@@ -1,30 +1,43 @@
 {
-    "head": "head",
     "portraitScale": 2.14,
-    "portraitTranslation": [-0.78, 1.18, 0],
-    "profileScale": 0.95,
-    "profileTranslation": [-0.05, 0.68, 0],
-    "faint": "bedrock(rapidash_cheseian, faint)",
+    "portraitTranslation": [
+        -0.73,
+        1.18,
+        0.0
+    ],
+    "profileScale": 0.90,
+    "profileTranslation": [
+        -0.05,
+        0.68,
+        0
+    ],
+    "animations": {
+        "faint": "q.bedrock_primary('rapidash_cheseian', 'faint')"
+    },
     "poses": {
-      "standing": {
-        "poseName": "standing",
-        "transformTicks": 10,
-        "poseTypes": [
-          "STAND",
-          "NONE",
-          "PORTRAIT",
-          "PROFILE"
-        ],
-        "animations": [
-          "look",
-          "bedrock(rapidash_cheseian, ground_idle)"
-        ]
-      },
-      "walking": {
-        "poseName": "walking",
-        "transformTicks": 10,
-        "poseTypes": [ "WALK" ],
-        "animations": [ "bedrock(rapidash_cheseian, ground_walk)" ]
-      }
+        "standing": {
+            "poseName": "standing",
+            "transformTicks": 10,
+            "poseTypes": [
+                "STAND",
+                "NONE",
+                "PORTRAIT",
+                "PROFILE"
+            ],
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('rapidash_cheseian', 'ground_idle')"
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "transformTicks": 10,
+            "poseTypes": [
+                "WALK"
+            ],
+            "animations": [
+                "q.bedrock('rapidash_cheseian', 'ground_walk')"
+            ]
+        }
     }
 }

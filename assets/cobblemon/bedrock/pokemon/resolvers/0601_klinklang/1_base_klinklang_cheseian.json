@@ -3,13 +3,18 @@
   "order": 1,
   "variations": [
     {
-      "aspects": ["cheseian"],
+      "aspects": [
+        "cheseian"
+      ],
       "model": "cobblemon:klinklang.geo",
       "texture": "cobblemon:textures/pokemon/0601_klinklang/klinklang_cheseian.png",
       "layers": []
     },
     {
-      "aspects": ["shiny", "cheseian"],
+      "aspects": [
+        "shiny",
+        "cheseian"
+      ],
       "texture": "cobblemon:textures/pokemon/0601_klinklang/klinklang_cheseian_shiny.png",
       "layers": []
     }

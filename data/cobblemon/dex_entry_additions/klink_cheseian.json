@@ -1,9 +1,11 @@
 {
-    "entryId": "cobblemon:klink",
-    "forms": [
-      {
-        "displayForm": "Cheseian",
-        "unlockForms": ["Cheseian"]
-      }
-    ]
-  }
+  "entryId": "cobblemon:klink",
+  "forms": [
+    {
+      "displayForm": "Cheseian",
+      "unlockForms": [
+        "Cheseian"
+      ]
+    }
+  ]
+}
