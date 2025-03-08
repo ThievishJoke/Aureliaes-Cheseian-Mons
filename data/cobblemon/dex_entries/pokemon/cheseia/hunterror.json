@@ -1,0 +1,28 @@
+{
+  "id": "cobblemon:hunterror",
+  "speciesId": "cobblemon:hunterror",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    },
+    {
+      "displayForm": "Pink",
+      "unlockForms": [
+        "Pink"
+      ]
+    }
+  ],
+  "variations": [
+    {
+    "displayName": "cobblemon.pokedex.variation.pink",
+      "aspects": [
+        "pink"
+      ]
+    }
+  ]
+}

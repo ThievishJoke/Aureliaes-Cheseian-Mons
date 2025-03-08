@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:hunterror",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:hunterror",
+      "model": "cobblemon:hunterror.geo",
+      "texture": "cobblemon:textures/pokemon/hunterror/hunterror.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/hunterror/hunterror_shiny.png"
+    }
+  ]
+}

@@ -35,13 +35,12 @@
         "entries": [
           {
             "item": "cobblemon:metal_coat",
-            "quantityRange": "0-1",
+            "quantityRange": "1",
             "percentage": 5.0
           },
           {
             "item": "minecraft:beef",
-            "quantityRange": "1-4",
-            "percentage": 25.0
+            "quantityRange": "1-4"
           }
         ]
       },

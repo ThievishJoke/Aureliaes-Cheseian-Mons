@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:hunterror",
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    },
+    {
+      "displayForm": "Pink",
+      "unlockForms": [
+        "Pink"
+      ]
+    }
+  ]
+}

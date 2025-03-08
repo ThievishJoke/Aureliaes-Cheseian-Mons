@@ -1,0 +1,13 @@
+{
+  "species": "cobblemon:hunterror",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["pink"],
+      "poser": "cobblemon:hunterror",
+      "model": "cobblemon:hunterror.geo",
+      "texture": "cobblemon:textures/pokemon/hunterror/hunterror_pink.png",
+      "layers": []
+    }
+  ]
+}

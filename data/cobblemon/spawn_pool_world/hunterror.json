@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "pokemon": "cobblemon:hunterror",
+      "id": "hunterror-1",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "39-65",
+      "weight": 0.125,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_ocean"
+        ],
+        "maxY": 50
+      },
+      "anticondition": {}
+    }
+  ]
+}
