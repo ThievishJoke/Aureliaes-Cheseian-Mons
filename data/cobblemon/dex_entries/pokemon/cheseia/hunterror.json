@@ -20,6 +20,7 @@
   "variations": [
     {
     "displayName": "cobblemon.pokedex.variation.pink",
+    "icon": "cobblemon:textures/gui/pokedex/variation/color.png",
       "aspects": [
         "pink"
       ]

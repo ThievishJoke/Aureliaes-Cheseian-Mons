@@ -17,8 +17,7 @@
     "gui": {
       "poseName": "gui",
       "poseTypes": [
-        "PORTRAIT",
-        "PROFILE"
+        "PORTRAIT"
       ],
       "animations": [
         "q.look('head')",
@@ -29,7 +28,8 @@
       "poseName": "standing",
       "poseTypes": [
         "STAND",
-        "NONE"
+        "NONE",
+        "PROFILE"
       ],
       "animations": [
         "q.look('head')",

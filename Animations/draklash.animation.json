@@ -1,0 +1,40 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.draklash.idle": {
+			"loop": true,
+			"bones": {
+				"torso": {
+					"rotation": [10, 0, 0]
+				},
+				"neck1": {
+					"rotation": [-12.5, 0, 0]
+				},
+				"jaw": {
+					"rotation": [25, 0, 0]
+				},
+				"tail": {
+					"rotation": [-5, 0, 0]
+				},
+				"tail1": {
+					"rotation": [-2.5, 0, 0]
+				},
+				"tail2": {
+					"rotation": [-2.5, 0, 0]
+				},
+				"right_wing": {
+					"rotation": [0, 0, -7.5]
+				},
+				"left_wing": {
+					"rotation": [0, 0, 7.5]
+				},
+				"left_wing1": {
+					"rotation": [0, 0, 90]
+				},
+				"right_wing1": {
+					"rotation": [0, 0, -90]
+				}
+			}
+		}
+	}
+}
