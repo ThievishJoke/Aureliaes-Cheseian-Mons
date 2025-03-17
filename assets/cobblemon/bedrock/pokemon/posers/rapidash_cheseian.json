@@ -1,43 +1,48 @@
 {
-    "portraitScale": 2.14,
-    "portraitTranslation": [
-        -0.73,
-        1.18,
-        0.0
-    ],
-    "profileScale": 0.90,
-    "profileTranslation": [
-        -0.05,
-        0.68,
-        0
-    ],
-    "animations": {
-        "faint": "q.bedrock_primary('rapidash_cheseian', 'faint')"
+  "portraitScale": 2.14,
+  "portraitTranslation": [
+    -0.73,
+    1.18,
+    0.0
+  ],
+  "profileScale": 0.73,
+  "profileTranslation": [
+    -0.01,
+    0.84,
+    0
+  ],
+  "animations": {
+    "faint": "q.bedrock_primary('rapidash_cheseian', 'faint')",
+    "cry": "q.bedrock_stateful('rapidash', 'cry')",
+    "physical": "q.bedrock_primary('rapidash_cheseian', 'physical', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND",
+        "HOVER",
+        "FLOAT",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('rapidash_cheseian', 'ground_idle')"
+      ]
     },
-    "poses": {
-        "standing": {
-            "poseName": "standing",
-            "transformTicks": 10,
-            "poseTypes": [
-                "STAND",
-                "NONE",
-                "PORTRAIT",
-                "PROFILE"
-            ],
-            "animations": [
-                "q.look('head')",
-                "q.bedrock('rapidash_cheseian', 'ground_idle')"
-            ]
-        },
-        "walking": {
-            "poseName": "walking",
-            "transformTicks": 10,
-            "poseTypes": [
-                "WALK"
-            ],
-            "animations": [
-                "q.bedrock('rapidash_cheseian', 'ground_walk')"
-            ]
-        }
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [
+        "WALK",
+        "FLY"
+      ],
+      "animations": [
+        "q.bedrock('rapidash_cheseian', 'ground_walk')"
+      ]
     }
+  }
 }

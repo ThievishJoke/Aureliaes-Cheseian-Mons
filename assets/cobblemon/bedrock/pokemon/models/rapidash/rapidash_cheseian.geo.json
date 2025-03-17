@@ -7,8 +7,8 @@
 				"texture_width": 128,
 				"texture_height": 128,
 				"visible_bounds_width": 5,
-				"visible_bounds_height": 3.5,
-				"visible_bounds_offset": [0, 1.25, 0]
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
 			},
 			"bones": [
 				{
@@ -340,7 +340,13 @@
 					"pivot": [-3.25, 1.25, -6],
 					"cubes": [
 						{"origin": [-4.75, 0, -7.75], "size": [3, 2, 3], "inflate": 0.02, "uv": [94, 32]}
-					]
+					],
+					"locators": {
+						"gas2": {
+							"offset": [-3.25, 1, -5.5],
+							"rotation": [90, 0, 0]
+						}
+					}
 				},
 				{
 					"name": "leg_front_left",
@@ -375,7 +381,13 @@
 					"pivot": [3.25, 1.25, -6],
 					"cubes": [
 						{"origin": [1.75, 0, -7.75], "size": [3, 2, 3], "inflate": 0.02, "uv": [94, 37]}
-					]
+					],
+					"locators": {
+						"gas": {
+							"offset": [3.25, 1, -5.5],
+							"rotation": [90, 0, 0]
+						}
+					}
 				},
 				{
 					"name": "leg_back_right",
@@ -408,7 +420,13 @@
 					"rotation": [5, 0, 0],
 					"cubes": [
 						{"origin": [-5, -0.25, 4.75], "size": [3, 2, 3], "inflate": 0.02, "uv": [94, 42]}
-					]
+					],
+					"locators": {
+						"gas3": {
+							"offset": [-3.5, 1, 7],
+							"rotation": [90, 0, 0]
+						}
+					}
 				},
 				{
 					"name": "leg_back_left",
@@ -441,7 +459,13 @@
 					"rotation": [5, 0, 0],
 					"cubes": [
 						{"origin": [2, -0.25, 4.75], "size": [3, 2, 3], "inflate": 0.02, "uv": [94, 47]}
-					]
+					],
+					"locators": {
+						"gas4": {
+							"offset": [3.5, 1, 7],
+							"rotation": [90, 0, 0]
+						}
+					}
 				}
 			]
 		}
