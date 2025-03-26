@@ -1,0 +1,5 @@
+Monolithar
+Type(s) Rock/Ground
+Evolves from Bouldear
+Evolves into Colossalith
+Resembles a ruin wall
