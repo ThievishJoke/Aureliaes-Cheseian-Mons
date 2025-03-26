@@ -420,7 +420,13 @@
 					"rotation": [5, 0, 0],
 					"cubes": [
 						{"origin": [-5, -0.25, 4.75], "size": [3, 2, 3], "inflate": 0.02, "uv": [94, 42]}
-					]
+					],
+					"locators": {
+						"gas3": {
+							"offset": [-3.25, 1, 6.5],
+							"rotation": [90, 0, 0]
+						}
+					}
 				},
 				{
 					"name": "leg_back_left",
@@ -453,7 +459,13 @@
 					"rotation": [5, 0, 0],
 					"cubes": [
 						{"origin": [2, -0.25, 4.75], "size": [3, 2, 3], "inflate": 0.02, "uv": [94, 47]}
-					]
+					],
+					"locators": {
+						"gas4": {
+							"offset": [3.25, 1, 6.5],
+							"rotation": [90, 0, 0]
+						}
+					}
 				}
 			]
 		}

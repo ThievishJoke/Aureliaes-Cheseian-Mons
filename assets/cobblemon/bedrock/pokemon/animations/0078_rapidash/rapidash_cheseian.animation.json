@@ -144,6 +144,14 @@
 					{
 						"effect": "rapidash_cheseian_hooves",
 						"locator": "gas2"
+					},
+					{
+						"effect": "rapidash_cheseian_hooves",
+						"locator": "gas3"
+					},
+					{
+						"effect": "rapidash_cheseian_hooves",
+						"locator": "gas4"
 					}
 				]
 			}
@@ -310,6 +318,14 @@
 					{
 						"effect": "rapidash_cheseian_hooves",
 						"locator": "gas2"
+					},
+					{
+						"effect": "rapidash_cheseian_hooves",
+						"locator": "gas3"
+					},
+					{
+						"effect": "rapidash_cheseian_hooves",
+						"locator": "gas4"
 					}
 				]
 			}
@@ -1783,6 +1799,14 @@
 					{
 						"effect": "rapidash_cheseian_hooves",
 						"locator": "gas2"
+					},
+					{
+						"effect": "rapidash_cheseian_hooves",
+						"locator": "gas3"
+					},
+					{
+						"effect": "rapidash_cheseian_hooves",
+						"locator": "gas4"
 					}
 				]
 			}

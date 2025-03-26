@@ -13,12 +13,12 @@
         "h:solarpower"
       ],
       "baseStats": {
-        "hp": 60,
-        "attack": 70,
-        "defence": 85,
+        "hp": 75,
+        "attack": 75,
+        "defence": 95,
         "special_attack": 90,
-        "special_defence": 90,
-        "speed": 50
+        "special_defence": 85,
+        "speed": 20
       },
       "catchRate": 60,
       "maleRatio": -1,
