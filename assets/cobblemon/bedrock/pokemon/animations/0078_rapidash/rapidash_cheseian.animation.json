@@ -134,26 +134,6 @@
 					],
 					"position": [0, "(math.clamp(math.sin(q.anim_time*90*4-110+180)*1,0.5,1)-0.5)*0.7", 0]
 				}
-			},
-			"particle_effects": {
-				"0.0": [
-					{
-						"effect": "rapidash_cheseian_hooves",
-						"locator": "gas"
-					},
-					{
-						"effect": "rapidash_cheseian_hooves",
-						"locator": "gas2"
-					},
-					{
-						"effect": "rapidash_cheseian_hooves",
-						"locator": "gas3"
-					},
-					{
-						"effect": "rapidash_cheseian_hooves",
-						"locator": "gas4"
-					}
-				]
 			}
 		},
 		"animation.rapidash_cheseian.ground_idle": {
