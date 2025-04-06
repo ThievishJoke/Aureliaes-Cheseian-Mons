@@ -1,0 +1,107 @@
+{
+  "implemented": false,
+  "name": "Direfang",
+  "nationalPokedexNumber": 2290,
+  "primaryType": "dark",
+  "secondaryType": "normal",
+  "maleRatio": 0.25,
+  "height": 16,
+  "weight": 666,
+  "pokedex": [
+    "cobblemon.species.direfang.desc"
+  ],
+  "labels": [
+    "cheseian"
+  ],
+  "abilities": [
+    "strongjaw",
+    "queenlymagesty"
+    "h:soulheart"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 86,
+    "attack": 69,
+    "defence": 60,
+    "special_attack": 135,
+    "special_defence": 40,
+    "speed": 110
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 66,
+  "experienceGroup": "slow",
+  "catchRate": 40,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 1.0,
+    "height": 1.0,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "light": "0-4"
+    }
+  },
+  "drops": {
+    "amount": 4,
+    "entries": [{
+      "item": "minecraft:bone",
+      "quantityRange": "0-4"
+    }]
+  },
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "1:torment",
+    "1:nastyplot",
+    "1:bite",
+    "14:snarl",
+    "18:lifedew",
+    "20:icefang",
+    "22:hex",
+    "28:darkpulse",
+    "34:drainingkiss",
+    "38:shadowball",
+    "40:nightdaze",
+    "46:gigadrain",
+    "52:hypervoice",
+    "58:moonlight",
+    "60:hyperbeam"
+    "tm:protect",
+    "tm:taunt",
+    "tm:substitute",
+    "tm:willowisp",
+    "tm:thunderbolt",
+    "tm:icebeam",
+    "tm:energyball",
+    "tm:psychic",
+    "tm:darkpulse",
+    "tm:shadowball",
+    "tm:hypervoice",
+    "tm:snarl",
+    "tm:torment",
+    "tm:nastyplot",
+    "egg:nuzzle",
+    "egg:curse",
+    "egg:yawn",
+    "egg:feintattack",
+    "egg:disarmingvoice"
+  ],
+  "preEvolution": "morbark",
+  "evolutions": [],
+  "forms": [
+  ]
+}

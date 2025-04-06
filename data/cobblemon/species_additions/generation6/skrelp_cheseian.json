@@ -1,0 +1,36 @@
+{
+  "target": "cobblemon:skrelp",
+  "forms": [
+    {
+      "implemented": true,
+      "name": "Cheseian",
+      "nationalPokedexNumber": 690,
+      "labels": [
+        "gen6",
+        "cheseian"
+      ],
+      "pokedex": [
+        "cobblemon.species.skrelp_cheseian.desc"
+      ],
+      "aspects": [
+        "cheseian"
+      ],
+      "evolutions": [
+        {
+          "id": "skrelp_cheseian_dragalge_cheseian",
+          "variant": "item_interact",
+          "result": "dragalge form=cheseian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 59
+            }
+          ],
+          "requiredContext": "cobblemon:poison_barb"
+        }
+      ]
+    }
+  ]
+}

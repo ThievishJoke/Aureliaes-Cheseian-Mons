@@ -1,0 +1,36 @@
+{
+  "target": "cobblemon:dragalge",
+  "forms": [
+    {
+      "implemented": true,
+      "name": "Cheseian",
+      "nationalPokedexNumber": 690,
+      "labels": [
+        "gen6",
+        "cheseian"
+      ],
+      "pokedex": [
+        "cobblemon.species.dragalge_cheseian.desc"
+      ],
+      "aspects": [
+        "cheseian"
+      ],
+      "evolutions": [
+        {
+          "id": "dragalge_cheseian_dragshade",
+          "variant": "item_interact",
+          "result": "dragshade",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 59
+            }
+          ],
+          "requiredContext": "cobblemon:poison_barb"
+        }
+      ]
+    }
+  ]
+}

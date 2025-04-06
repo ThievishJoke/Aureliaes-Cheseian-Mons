@@ -1,0 +1,115 @@
+{
+  "implemented": false,
+  "name": "Morbark",
+  "nationalPokedexNumber": 2290,
+  "primaryType": "dark",
+  "secondaryType": "normal",
+  "maleRatio": 0.25,
+  "height": 7,
+  "weight": 120,
+  "pokedex": [
+    "cobblemon.species.morbark.desc"
+  ],
+  "labels": [
+    "cheseian"
+  ],
+  "abilities": [
+    "strongjaw",
+    "queenlymagesty"
+    "h:soulheart"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 66,
+    "attack": 49,
+    "defence": 40,
+    "special_attack": 85,
+    "special_defence": 20,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 66,
+  "experienceGroup": "slow",
+  "catchRate": 120,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 1.0,
+    "height": 1.0,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "light": "0-4"
+    }
+  },
+  "drops": {
+    "amount": 1,
+    "entries": [{
+      "item": "minecraft:bone",
+      "quantityRange": "0-1"
+    }]
+  },
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "1:torment",
+    "1:nastyplot",
+    "10:bite",
+    "14:snarl",
+    "18:lifedew",
+    "20:icefang",
+    "22:hex",
+    "26:darkpulse",
+    "32:drainingkiss",
+    "38:shadowball",
+    "40:nightdaze",
+    "46:gigadrain",
+    "52:hypervoice",
+    "58:moonlight",
+    "tm:protect",
+    "tm:taunt",
+    "tm:substitute",
+    "tm:willowisp",
+    "tm:thunderbolt",
+    "tm:icebeam",
+    "tm:energyball",
+    "tm:psychic",
+    "tm:darkpulse",
+    "tm:shadowball",
+    "tm:hypervoice",
+    "tm:snarl",
+    "tm:torment",
+    "tm:nastyplot",
+    "egg:nuzzle",
+    "egg:curse",
+    "egg:yawn",
+    "egg:feintattack",
+    "egg:disarmingvoice"
+  ],
+  "preEvolution": "",
+  "evolutions": [{
+    "id": "morbark_direfang",
+    "variant": "level_up",
+    "result": "direfang",
+    "consumeHeldItem": false,
+    "learnableMoves": [],
+    "requirements": [{
+      "variant": "level",
+      "minLevel": 26
+    }],
+  }],
+  "forms": []
+}
